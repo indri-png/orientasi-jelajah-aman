@@ -48,3 +48,7 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+## Penjelasan Cache dan Mode Offline
+
+Fresh cache adalah data yang masih berada dalam batas waktu kesegaran sehingga dapat ditampilkan dari penyimpanan perangkat. Stale cache adalah data yang sudah melewati batas waktu kesegaran sehingga aplikasi perlu mencoba mengambil data terbaru dari internet. Jika aplikasi pertama kali dibuka saat offline dan belum memiliki cache, data tidak dapat ditampilkan dan pengguna perlu mencoba lagi ketika internet tersedia. Label status data membantu pengguna mengetahui apakah data berasal dari internet atau cache, sehingga pengguna dapat memahami kondisi dan kebaruan data.
